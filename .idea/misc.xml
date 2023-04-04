@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Joel/IdeaProjects/Take3/app/src/main/res/drawable/gradientbg.xml" value="0.1" />
+        <entry key="..\:/Users/Joel/IdeaProjects/Take3/app/src/main/res/drawable/ic_baseline_album_24.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/Joel/IdeaProjects/Take3/app/src/main/res/drawable/ic_forward2.xml" value="0.1" />
+        <entry key="..\:/Users/Joel/IdeaProjects/Take3/app/src/main/res/drawable/ic_legato3__2_.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/Joel/IdeaProjects/Take3/app/src/main/res/drawable/ic_leglogo__1_.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/Joel/IdeaProjects/Take3/app/src/main/res/drawable/ic_play3.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/Joel/IdeaProjects/Take3/app/src/main/res/drawable/ic_round_3mp_24.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/Joel/IdeaProjects/Take3/app/src/main/res/drawable/list_bg.xml" value="0.1" />
+        <entry key="..\:/Users/Joel/IdeaProjects/Take3/app/src/main/res/drawable/play (1).xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/Joel/IdeaProjects/Take3/app/src/main/res/drawable/play.xml" value="0.6" />
+        <entry key="..\:/Users/Joel/IdeaProjects/Take3/app/src/main/res/drawable/play2.xml" value="0.1" />
+        <entry key="..\:/Users/Joel/IdeaProjects/Take3/app/src/main/res/layout/activity_main.xml" value="0.10548523206751055" />
+        <entry key="..\:/Users/Joel/IdeaProjects/Take3/app/src/main/res/layout/activity_player.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/Joel/IdeaProjects/Take3/app/src/main/res/layout/list_item.xml" value="0.4466666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="jbr-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

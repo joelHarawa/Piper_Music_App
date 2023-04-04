@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PlayerActivity"
+        android:background="@drawable/gradientbg"
+        android:weightSum="10"
+        android:orientation="vertical">
+
+
+    <ImageView
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_baseline_album_24"
+            android:id="@+id/albumcover">
+    </ImageView>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text="Song Name"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:id="@+id/txtsn"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp">
+    </TextView>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_marginEnd="5dp"
+            android:singleLine="true"
+            android:layout_marginStart="20dp"
+            android:text="Artist Name"
+            android:textColor="#D3D3D3"
+            android:textSize="12dp"
+            android:id="@+id/artName">
+
+    </TextView>
+
+    <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/seekmusic"
+            android:layout_marginTop="20dp">
+
+    </SeekBar>
+    <TextView
+                android:id="@+id/txtstart"
+                android:layout_width="20dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="30dp"
+                android:text="0:10"
+                android:textColor="#D3D3D3"
+                android:textSize="10sp">
+    </TextView>
+    <TextView
+            android:id="@+id/txtend"
+            android:layout_width="20dp"
+            android:layout_marginStart="360dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="-15dp"
+            android:text="2:35"
+            android:textColor="#D3D3D3"
+            android:textSize="10sp">
+    </TextView>
+    <Button
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/playbutton"
+            android:background="@drawable/ic_pause2">
+    </Button>
+    <Button
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="-70dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="90dp"
+            android:background="@drawable/ic_forward2"
+            android:id="@+id/forwardbutton">
+
+
+    </Button>
+    <Button
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="-70dp"
+            android:layout_marginStart="-90dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_back2"
+            android:id="@+id/backbutton">
+    </Button>
+
+
+</LinearLayout>
